@@ -1,14 +1,40 @@
 <!DOCTYPE html>
 <html>
-    <style>
-        input{
-  width: 20%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
-    </style>
-<body>
-    <input id="text" type="text"></input>
-</body>
+  <style>
+    input{-webkit-font-smoothing: antialiased;
+    list-style: none;
+    font: inherit;
+    color: currentColor;
+    width: 100%;
+    border: 0;
+    height: 1.1876em;
+    margin: 0;
+    display: block;
+    min-width: 0;
+    background: none;
+    box-sizing: content-box;
+    animation-name: mui-auto-fill-cancel;
+    letter-spacing: inherit;
+    animation-duration: 10ms;
+    -webkit-tap-highlight-color: transparent;
+    padding: 18.5px 14px;
+    padding-top: 10.5px;
+    padding-bottom: 10.5px;}
+  </style>
+  <body>
+    <div>
+      <input
+        aria-invalid="false"
+        type="text"
+        value=""
+      />
+      <fieldset
+        aria-hidden="true"
+      >
+        <legend class="PrivateNotchedOutline-legendLabelled-87">
+          <span>Enter</span>
+        </legend>
+      </fieldset>
+    </div>
+  </body>
 </html>
